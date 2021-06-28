@@ -1,0 +1,14 @@
+.logo {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    border: double 4px black;
+    background-color: blanchedalmond;
+    position: absolute;
+    top: 7%;
+    right: 28%;
+}
+
+.logo:hover {
+    background-color: rgb(134, 173, 42);
+}

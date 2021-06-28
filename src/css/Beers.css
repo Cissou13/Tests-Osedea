@@ -1,0 +1,106 @@
+/*****************
+  * Beers List *
+*****************/
+
+.beer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    width: 80%;
+}
+
+hr {
+    width: 50%;
+    margin: 0;
+}
+
+.beer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    margin: 5px auto;
+    border: 5px solid rgb(3, 27, 3);
+    border-radius: 40px;
+    background-color: darkslategrey;
+    color: white;
+}
+.beer-item h1 {
+    font-size: 36px;
+    color: navajowhite;
+    padding-bottom: 12px;
+}
+
+.beer-item h1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.beer-item p {
+    text-align: justify;
+    width: 50%;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.beer-item-img {
+    width: 128px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 2px 2px 5px 3px white;
+}
+
+/*****************
+  * Single Beer *
+*****************/
+
+.singleBeer-container {
+    margin: 5px auto;
+    width: 40%;
+}
+
+.singleBeer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singleBeer-container h4 {
+    text-shadow: 1px 1px 2px black;
+    font-size: 24px;
+}
+
+.singleBeer-container h4:hover {
+    font-size: x-large;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.h3-title {
+    color: indianred;
+    text-transform: uppercase;
+}
+
+.meal-container {
+    border-radius: 50%;
+    border: 1px double black;
+    width: 70%;
+    background-color: rgb(231, 169, 55);
+    box-shadow: black 3px 3px 5px;
+    color: rgb(11, 50, 122);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    padding: 5px 0;
+}
+
+.btn {
+    border: 2px ridge white;
+    color: white;
+    background-color: black;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: gray 2px 2px 5px;
+    cursor: pointer;
+}
